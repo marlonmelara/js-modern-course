@@ -14,7 +14,7 @@ const AMIGO = "Woodstock"; // 'AMIGO' es una constante y no puede ser reasignada
 function saludar() {
   let nombre = "Linus"; // 'nombre' es una variable local que está en el ámbito de la función 'saludar' y está inicializada con el valor "Linus"
 
-  nombre2 = "Charlie"; // 👉 'nombre2' no está declarada con let, var o const, por lo que se elevará al ámbito global
+  nombre2 = "Charlie"; // 🚩 'nombre2' no está declarada con let, var o const, por lo que se elevará al ámbito global. Generalmente se considera una mala práctica
 
   var edad = 9; // 'edad' es una variable local que está en el ámbito de la función 'saludar' y está inicializada con el valor 9
 
